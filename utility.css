@@ -1,0 +1,82 @@
+.border{
+    border: 2px solid  rgb(255, 255, 255);
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.inverted{
+    filter: invert(1);
+}
+.bg-grey{
+    
+    background-color: #121212;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.rounded{
+    border-radius: 9px;
+}
+
+.m-1{
+    margin: 5px;
+}
+.p1{
+    padding: 10px;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #444, #111);
+  border-radius: 10px;
+  border: 2px solid #222;
+}
+
+::-webkit-scrollbar-track {
+  background: #222;
+}
+
+.range input[type="range"] {
+    -webkit-appearance: none; /* remove default styling (Chrome, Safari) */
+    width: 100px;
+    height: 5px;
+    background: #5c5a5a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge thumb */
+.range input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    border: 1px solid#5c5a5a;
+}
+
+/* Firefox thumb */
+.range input[type="range"]::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    border: 1px solid #5c5a5a;
+}
+
